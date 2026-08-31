@@ -60,7 +60,9 @@ ShopSphere-E-Commerce-Analytics/
 │   └── Screenshots/
 │
 └── README.md
-Excel Data Cleaning
+```
+
+## Excel Data Cleaning
 Excel was used as the initial data preparation stage.
 The process included:
 - Reviewing the raw dataset
@@ -71,6 +73,7 @@ The process included:
 - Standardizing data
 - Performing validation checks
 - Preparing the final dataset for SQL and Power BI analysis
+
 SQL Analysis
 SQL was used to investigate the dataset and answer key business questions.
 The analysis covered:
@@ -99,6 +102,7 @@ SQL techniques used include:
 - ROW_NUMBER()
 - LAG()
 - LEAD()
+
 Power BI Dashboard
 The Power BI report converts the analysis into an interactive business intelligence dashboard.
 The report contains seven analytical pages:
@@ -109,6 +113,7 @@ The report contains seven analytical pages:
 5. Customer Analysis
 6. Shipping Analysis
 7. Time Analysis
+
 The dashboard includes:
 - KPI cards
 - Interactive filters
@@ -121,28 +126,48 @@ The dashboard includes:
 - Trend analysis
 
 
-## Dashboard Screenshots
+## Power BI Dashboard
+
+The Power BI dashboard was developed to provide interactive analysis of sales, customers, products, regions, shipping performance, and trends over time.
+
+The report contains seven pages:
+
+1. Executive Overview
+2. Sales Analysis
+3. Regional Analysis
+4. Product Analysis
+5. Customer Analysis
+6. Shipping Analysis
+7. Time Analysis
+
 
 ### Executive Overview
-![Executive Overview](PowerBI/Screenshots/GENERAL%20OVERVEW%20PERFORMANCE.png)
+
+![Executive Overview](PowerBI/Screenshots/GENERAL%20OVERVIEW%20PERFORMANCE.png)
 
 ### Sales Analysis
+
 ![Sales Analysis](PowerBI/Screenshots/SALES%20PERFORMANCE%20DASHBOARD.png)
 
-###Product Analysis
-![Product Analysis](PowerBI/Screenshots/Product%20PERFORMANCE%20DASHBOARD.png)
+### Regional Analysis
 
-###Customer Analysis
-![Customer Analysis](PowerBI/Screenshots/Customer%20PERFORMANCE%20DASHBOARD.png)
+![Regional Analysis](PowerBI/Screenshots/REGIONAL%20PERFORMANCE%20DASHBOARD.png)
 
-###Regional Analysis
-![Regional Analysis](PowerBI/Screenshots/Regional%20PERFORMANCE%20DASHBOARD.png)
+### Product Analysis
 
-###Shipping Analysis
-![Shipping Analysis](PowerBI/Screenshots/Shipping%20PERFORMANCE%20DASHBOARD.png)
+![Product Analysis](PowerBI/Screenshots/PRODUCT%20PERFORMANCE%20DASHBOARD.png)
 
-###Time Analysis
-![Time Analysis](PowerBI/Screenshots/Time%20PERFORMANCE%20DASHBOARD.png)
+### Customer Analysis
+
+![Customer Analysis](PowerBI/Screenshots/CUSTOMER%20PERFORMANCE%20DASHBOARD.png)
+
+### Shipping Analysis
+
+![Shipping Analysis](PowerBI/Screenshots/SHIPPING%20PERFORMANCE%20DASHBOARD.png)
+
+### Time Analysis
+
+![Time Analysis](PowerBI/Screenshots/TIME%20PERFORMANCE%20DASHBOARD.png)
 
 ## Key Business Insights
 The analysis identifies important patterns across sales, customers, products, regions, shipping, and time.
