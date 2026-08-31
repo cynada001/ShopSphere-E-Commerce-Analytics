@@ -119,15 +119,30 @@ The dashboard includes:
 - Shipping performance
 - Time-series analysis
 - Trend analysis
-Dashboard Screenshots
-Executive Overview
 
-Sales Analysis
-Product Analysis
-Customer Analysis
-Regional Analysis
-Shipping Analysis
-Time Analysis
+
+## Dashboard Screenshots
+
+### Executive Overview
+![Executive Overview](PowerBI/Screenshots/GENERAL%20OVERVEW%20PERFORMANCE.png)
+
+### Sales Analysis
+![Sales Analysis](PowerBI/Screenshots/SALES%20PERFORMANCE%20DASHBOARD.png)
+
+###Product Analysis
+![Product Analysis](PowerBI/Screenshots/Product%20PERFORMANCE%20DASHBOARD.png)
+
+###Customer Analysis
+![Customer Analysis](PowerBI/Screenshots/Customer%20PERFORMANCE%20DASHBOARD.png)
+
+###Regional Analysis
+![Regional Analysis](PowerBI/Screenshots/Regional%20PERFORMANCE%20DASHBOARD.png)
+
+###Shipping Analysis
+![Shipping Analysis](PowerBI/Screenshots/Shipping%20PERFORMANCE%20DASHBOARD.png)
+
+###Time Analysis
+![Time Analysis](PowerBI/Screenshots/Time%20PERFORMANCE%20DASHBOARD.png)
 
 ## Key Business Insights
 The analysis identifies important patterns across sales, customers, products, regions, shipping, and time.
