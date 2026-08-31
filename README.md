@@ -2,147 +2,163 @@
 
 ## Project Overview
 
-ShopSphere is an e-commerce analytics project built using Excel, SQL, and Power BI.
+ShopSphere is an end-to-end e-commerce analytics project developed to analyze sales performance, profitability, customers, products, regional performance, shipping operations, and business trends.
 
-I started with a raw transactional dataset and worked through the full analytics process, including data cleaning, validation, SQL analysis, and dashboard development.
-
-The analysis focuses on sales, profitability, products, customers, regions, shipping, and trends over time.
+The project follows a complete analytics workflow, starting from raw transactional data and progressing through data cleaning, validation, SQL analysis, and interactive Power BI dashboard development.
 
 ## Business Objective
 
-The main questions I wanted to answer were:
+The objective of this project is to transform raw e-commerce transaction data into actionable business insights that can support better decision-making across sales, customers, products, regions, and operations.
 
-- How is the business performing overall?
-- Which products generate the most sales and profit?
-- Which customers contribute the most revenue?
-- Which regions perform best?
-- How do sales and profit change over time?
-- How many shipments are processed?
-- How long does it take to ship orders?
+Key business questions include:
 
-## Dataset
+- How is overall sales and profit performance?
+- Which products generate the highest revenue and profit?
+- Which customers contribute the most to sales?
+- Which regions perform best and which require attention?
+- How does shipping performance affect the business?
+- What trends and seasonal patterns exist over time?
+- Where are the major opportunities for improvement?
 
-The final cleaned dataset contains 25,000 records.
+## Tools & Technologies
 
-It includes information on:
+- **Microsoft Excel** – Data cleaning, validation, and preparation
+- **SQL** – Data analysis, business queries, aggregation, joins, CTEs, and window functions
+- **Power BI** – Interactive dashboard development and visualization
+- **GitHub** – Project documentation and portfolio management
 
-- Orders
-- Customers
-- Products
-- Sales
-- Pricing
-- Discounts
-- Regions
-- Countries
-- Shipping
-- Dates
+## Project Workflow
 
-## Data Cleaning and Validation
-
-Excel was used to inspect and clean the original dataset.
-
-Some of the main checks included:
-
-- Duplicate records
-- Missing values
-- Text consistency
-- Date validation
-- Shipping-date validation
-- Quantity checks
-- Sales amount reconciliation
-- Region and state consistency
-
-I identified 180 duplicate Order ID + Product ID records and removed them, reducing the dataset from 25,180 to 25,000 records.
-
-I also standardized text fields using TRIM and PROPER.
-
-Missing shipping dates were retained and documented rather than deleted because the absence of a shipping date does not invalidate the transaction.
-
-For records where the calculated sales amount differed from the original Sales Amount, I kept the original value because the underlying business pricing rules were not provided.
-
-## SQL Analysis
-
-SQL was used to analyze the cleaned dataset and answer the business questions.
-
-The analysis covered:
-
-- Sales performance
-- Product performance
-- Customer performance
-- Regional performance
-- Shipping performance
-- Time-based trends
-
-SQL techniques used include:
-
-- Aggregations
-- JOINs
-- CASE statements
-- CTEs
-- Window functions
-- Ranking
-- Running totals
-- LAG and LEAD
-- Views
-
-## Power BI Dashboard
-
-The Power BI report contains seven pages:
-
-1. Overview
-2. Sales Analysis
-3. Regional Analysis
-4. Product Analysis
-5. Customer Analysis
-6. Shipping Analysis
-7. Time Analysis
-
-The dashboard includes KPIs, interactive filters, trend analysis, regional comparisons, product analysis, customer analysis, and shipping performance.
-
-## Key Findings
-
-- Gross sales were approximately $19.70M.
-- Gross profit was approximately $4.40M.
-- Gross margin was approximately 22.34%.
-- The East region generated the highest sales at approximately $7.9M.
-- Laptop Pro 14 was the highest-selling product at approximately $4.4M.
-- Electronics accounted for approximately 69.39% of total sales.
-- Average shipping time was approximately 4 days.
-- Sales, profit, order volume, and gross margin changed throughout the analyzed period.
-
-## Key Performance Indicators
-
-| KPI | Value |
-|---|---:|
-| Gross Sales | $19.70M |
-| Gross Profit | $4.40M |
-| Gross Margin | 22.34% |
-| Total Orders | 25K |
-| Total Customers | 30 |
-| Total Products | 20 |
-| Total Shipments | 25K |
-| Average Days to Ship | 4 |
-
-## Tools Used
-
-- Excel
-- SQL
-- Power BI
-- DAX
+Raw Dataset  
+↓  
+Excel Data Cleaning & Validation  
+↓  
+SQL Data Analysis  
+↓  
+Business Insights  
+↓  
+Power BI Dashboard  
+↓  
+Final Recommendations
 
 ## Project Structure
 
 ```text
 ShopSphere-E-Commerce-Analytics/
 │
-├── README.md
 ├── Excel/
+│   ├── README.md
+│   └── ShopSphere_25K_ShopSphere_Portfolio_FINAL.xlsx
+│
 ├── SQL/
+│   ├── README.md
+│   └── SQL Analysis Scripts
+│
 ├── PowerBI/
-└── Screenshots/
+│   ├── README.md
+│   ├── ShopSphere_PowerBI_Dashboard.pbix
+│   └── Screenshots/
+│
+└── README.md
+Excel Data Cleaning
+Excel was used as the initial data preparation stage.
+The process included:
+- Reviewing the raw dataset
+- Identifying data quality issues
+- Checking missing values
+- Validating data types
+- Checking duplicates
+- Standardizing data
+- Performing validation checks
+- Preparing the final dataset for SQL and Power BI analysis
+SQL Analysis
+SQL was used to investigate the dataset and answer key business questions.
+The analysis covered:
+- Revenue and sales performance
+- Order performance
+- Product performance
+- Customer analysis
+- Regional analysis
+- Shipping performance
+- Time and seasonal analysis
+- Data validation and modelling
+SQL techniques used include:
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- Aggregate Functions
+- CASE WHEN
+- JOINs
+- CTEs
+- Subqueries
+- Window Functions
+- RANK()
+- DENSE_RANK()
+- ROW_NUMBER()
+- LAG()
+- LEAD()
+Power BI Dashboard
+The Power BI report converts the analysis into an interactive business intelligence dashboard.
+The report contains seven analytical pages:
+1. Executive Overview
+2. Sales Analysis
+3. Regional Analysis
+4. Product Analysis
+5. Customer Analysis
+6. Shipping Analysis
+7. Time Analysis
+The dashboard includes:
+- KPI cards
+- Interactive filters
+- Sales and profit analysis
+- Product comparisons
+- Customer performance
+- Regional comparisons
+- Shipping performance
+- Time-series analysis
+- Trend analysis
+Dashboard Screenshots
+Executive Overview
+
+Sales Analysis
+Product Analysis
+Customer Analysis
+Regional Analysis
+Shipping Analysis
+Time Analysis
+
+## Key Business Insights
+The analysis identifies important patterns across sales, customers, products, regions, shipping, and time.
+The insights generated from the SQL and Power BI analysis can be used to:
+- Identify high-performing products
+- Understand customer contribution to revenue
+- Compare regional performance
+- Monitor sales and profitability trends
+- Identify shipping performance issues
+- Detect seasonal patterns
+- Support data-driven business decisions
+
+## Recommendations
+Based on the analysis, management can use the findings to:
+- Focus resources on high-performing products and markets
+- Improve underperforming product categories
+- Strengthen customer retention strategies
+- Monitor regional performance
+- Improve shipping operations
+- Use historical trends to support future planning
+- Continuously monitor key business KPIs
+
+## Conclusion
+ShopSphere demonstrates an end-to-end data analytics workflow using Excel, SQL, and Power BI.
+The project shows how raw transactional data can be transformed into validated datasets, analytical insights, and interactive dashboards that support business decision-making.
+## Skills Demonstrated
+Data Analytics | Excel | SQL | Power BI | Data Cleaning | Data Validation | Business Analysis | Data Visualization | KPI Development | Dashboard Design | GitHub
 
 ## Author
 
-**Cynthia Adaku Ogbonna**
-
+**Cynthia Ogbonna**  
 Data Analyst | Excel | SQL | Power BI
+
+This project was independently designed and developed as part of my data analytics portfolio.
