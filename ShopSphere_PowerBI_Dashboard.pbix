@@ -1,0 +1,28 @@
+PowerBI/README.md
+# Power BI Dashboard
+
+This folder contains the Power BI dashboard developed from the cleaned ShopSphere dataset.
+
+The dashboard was designed to analyze sales, profitability, customers, products, regions, shipping performance, and trends over time.
+
+The report contains seven pages:
+
+1. Executive Overview
+2. Sales Analysis
+3. Regional Analysis
+4. Product Analysis
+5. Customer Analysis
+6. Shipping Analysis
+7. Time Analysis
+
+The dashboard includes KPI cards, interactive filters, trend analysis, regional comparisons, product and customer analysis, and shipping performance.
+
+Key KPIs include:
+
+- Gross Sales: $19.70M
+- Gross Profit: $4.40M
+- Gross Margin: 22.34%
+- Total Orders: 25K
+- Total Customers: 30
+- Total Products: 20
+- Average Days to Ship: 4 days
